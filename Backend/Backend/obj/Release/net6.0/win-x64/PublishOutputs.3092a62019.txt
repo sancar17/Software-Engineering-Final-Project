@@ -1,0 +1,4 @@
+C:\Users\mehmet altuner\Desktop\ContextSwitcherBackend\appsettings.Development.json
+C:\Users\mehmet altuner\Desktop\ContextSwitcherBackend\appsettings.json
+C:\Users\mehmet altuner\Desktop\ContextSwitcherBackend\Backend.pdb
+C:\Users\mehmet altuner\Desktop\ContextSwitcherBackend\Backend.exe

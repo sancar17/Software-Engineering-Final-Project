@@ -1,0 +1,35 @@
+﻿<Window x:Class="ContextSwitcherTest.PendingAdminRequest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:ContextSwitcher"
+        mc:Ignorable="d"
+        Title="PandingAdminRequest" Height="150" Width="350">
+    <Window.Resources>
+        <CollectionViewSource Source="{Binding}" x:Key="MyComboOptions" />
+        <SolidColorBrush x:Key="Bg" Color="#ffa600" />
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            
+            <ColumnDefinition Width="250" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15"></RowDefinition>
+            <RowDefinition Height="150" />
+            <RowDefinition Height="15"></RowDefinition>
+            
+        </Grid.RowDefinitions>
+
+        <Button Background="{DynamicResource Bg}" Foreground="WhiteSmoke" Grid.Row="1" Grid.Column="0"
+                Name="ShowMessageBox"
+                VerticalAlignment="Top"
+                Click="ShowMessageBox_Click">
+            Pending Admin Request
+        </Button>
+
+
+    </Grid>
+</Window>

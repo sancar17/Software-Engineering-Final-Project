@@ -1,0 +1,16 @@
+﻿<Application x:Class="ContextSwitcher.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ContextSwitcher"
+             StartupUri="CreateTask.xaml">
+    <Application.Resources>
+        
+            <Style x:Key="MyBorderStyle" TargetType="Border">
+                <Setter Property="BorderBrush" Value="White" />
+                <Setter Property="BorderThickness" Value="2" />
+                <Setter Property="CornerRadius" Value="3" />
+            </Style>
+        
+    </Application.Resources>
+    
+</Application>
